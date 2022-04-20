@@ -1,0 +1,11 @@
+{  
+  "suggest": {
+   "noselect": false,
+   "preferCompleteThanJumpPlaceholder": true
+  },
+  "coc": {
+    "preferences": {
+      "snippetHighlight": true
+    }
+  }
+}
