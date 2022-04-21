@@ -1,4 +1,5 @@
 ### Requires (Linux & ChromeOS)
+
 1. [Homebrew](https://brew.sh) Install
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -10,11 +11,11 @@ brew install wezterm
 ```
 3. [Git](https://git-scm.com/) Install
 ```bash
-apt install git
+sudo apt install git
 ```
 4. [tmux](https://github.com/tmux/tmux) Install
 ```bash
-apt install tmux
+sudo apt install tmux
 ```
 5. [Bat](https://github.com/sharkdp/bat) Install
 ```bash
@@ -29,8 +30,33 @@ ln -s /usr/bin/batcat ~/.local/bin/bat
 ```bash
 brew install btop
 ```
+7. [Node](https://github.com/nodesource/distributions#debinstall) Install
+```bash
+curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+sudo apt-get install -y nodejs
+```
+8. [live-server](https://www.npmjs.com/package/live-server) Install
+```bash
+npm install -g live-server
+```
+9. [ripgrep](https://github.com/BurntSushi/ripgrep) Install
+ripgrep is a line-oriented search tool that recursively searches the current directory for a regex pattern. By default, ripgrep will respect gitignore rules and automatically skip hidden files/directories and binary files.
+```bash
+brew install ripgrep
+```
+10. [fd](https://github.com/sharkdp/fd) Install
+fd is a program to find entries in your filesystem. It is a simple, fast and user-friendly alternative to find. While it does not aim to support all of find's powerful functionality, it provides sensible (opinionated) defaults for a majority of use cases.
+```bash
+sudo apt install fd-find
+```
+11. [python3](https://www.python.org/) Install
+If not install pip3 you will install.
+```bash
+sudo apt -y install python3-pip
+```
 
 ### Shell setup (Linux & ChromeOS)
+
 1. [Fish Shell](https://fishshell.com/) Install
 ```bash
 brew install fish
@@ -67,7 +93,7 @@ fisher install jethrokuan/z
 6. [Exa](https://the.exa.website/) Install
 `ls` replacement
 ```bash
-apt install exa
+sudo apt install exa
 ```
 7. [ghq](https://github.com/x-motemen/ghq) Install
 Local Git repository organizer
@@ -77,9 +103,11 @@ brew install ghq
 8. [peco](https://github.com/peco/peco) Install
 Interactive filtering
 ```bash
-apt install peco
+sudo apt install peco
 ```
+
 ### Vim setup
+
 1. [Neovim](https://neovim.io/) Install
 Requires Neovim(>=0.5)
 ```bash
@@ -105,3 +133,7 @@ An LSP server installer. It is used for installing an LSP server for Tailwind CS
 A highly extendable fuzzy finder over lists
 9. [defx.nvim](https://github.com/Shougo/defx.nvim) Install 
 A file explorer
+10. [markdown-preview](https://github.com/iamcco/markdown-preview.nvim) Install
+11. Open the vim and use `:checkhealth`, If get an error, deal with it.
+
+### This repository is My Development env config

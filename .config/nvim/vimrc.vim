@@ -113,7 +113,3 @@ autocmd FileType yaml setlocal shiftwidth=2 tabstop=2
 "}}}
 
 let g:auto_save_silent = 1  " do not display the auto-save notification
-
-let g:coc_global_extensions = [
-  \ 'coc-tsserver'
-  \ ]
