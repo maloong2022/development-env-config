@@ -127,18 +127,23 @@ A collection of configurations for Neovim's built-in LSP
 Treesitter configurations and abstraction layer for Neovim
 6. [nvim-cmp](https://github.com/hrsh7th/nvim-cmp) Install
 A completion plugin for neovim coded in Lua
-7. [lspsaga.nvim](https://github.com/tami5/lspsaga.nvim) Install 
+7. [cmp-path](https://github.com/hrsh7th/cmp-path) Install
+8. [cmp-cmdline](https://github.com/hrsh7th/cmp-cmdline) Install
+9. [cmp-vsnip](https://github.com/hrsh7th/cmp-vsnip) Install
+10. [vim-vsnip](https://github.com/hrsh7th/vim-vsnip) Install
+11. [friendly-snippets](https://github.com/rafamadriz/friendly-snippets) Install
+12. [lspsaga.nvim](https://github.com/tami5/lspsaga.nvim) Install 
 A light-weight LSP plugin based on Neovim built-in LSP with highly a performant UI
-8. [nvim-lsp-installer](https://github.com/williamboman/nvim-lsp-installer) Install
+13. [nvim-lsp-installer](https://github.com/williamboman/nvim-lsp-installer) Install
 An LSP server installer. It is used for installing an LSP server for Tailwind CSS
-9. [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) Install 
+14. [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) Install 
 A highly extendable fuzzy finder over lists
-1. [defx.nvim](https://github.com/Shougo/defx.nvim) Install 
+15. [defx.nvim](https://github.com/Shougo/defx.nvim) Install 
 A file explorer
-11. [toggleterm](https://github.com/akinsho/toggleterm.nvim) Install
-12. [tokyonight](https://github.com/folke/tokyonight.nvim) Install
-13. [nvim-tree](https://github.com/kyazdani42/nvim-tree.lua) Install
-14. [markdown-preview](https://github.com/iamcco/markdown-preview.nvim) Install
-15. Open the vim and use `:checkhealth`, If get an error, deal with it.
+16. [toggleterm](https://github.com/akinsho/toggleterm.nvim) Install
+17. [tokyonight](https://github.com/folke/tokyonight.nvim) Install
+18. [nvim-tree](https://github.com/kyazdani42/nvim-tree.lua) Install
+19. [markdown-preview](https://github.com/iamcco/markdown-preview.nvim) Install
+20. Open the vim and use `:checkhealth`, If get an error, deal with it.
 
 ### This repository is My Development env config
