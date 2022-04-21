@@ -122,19 +122,23 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 ```
 3. [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) Install 
 A collection of configurations for Neovim's built-in LSP
-4. [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) Install 
+4. [nvim-lsp-installer](https://github.com/williamboman/nvim-lsp-installer) Install
+5. [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) Install 
 Treesitter configurations and abstraction layer for Neovim
-5. [nvim-cmp](https://github.com/hrsh7th/nvim-cmp) Install
+6. [nvim-cmp](https://github.com/hrsh7th/nvim-cmp) Install
 A completion plugin for neovim coded in Lua
-6. [lspsaga.nvim](https://github.com/tami5/lspsaga.nvim) Install 
+7. [lspsaga.nvim](https://github.com/tami5/lspsaga.nvim) Install 
 A light-weight LSP plugin based on Neovim built-in LSP with highly a performant UI
-7. [nvim-lsp-installer](https://github.com/williamboman/nvim-lsp-installer) Install
+8. [nvim-lsp-installer](https://github.com/williamboman/nvim-lsp-installer) Install
 An LSP server installer. It is used for installing an LSP server for Tailwind CSS
-8. [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) Install 
+9. [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) Install 
 A highly extendable fuzzy finder over lists
-9. [defx.nvim](https://github.com/Shougo/defx.nvim) Install 
+1. [defx.nvim](https://github.com/Shougo/defx.nvim) Install 
 A file explorer
-10. [markdown-preview](https://github.com/iamcco/markdown-preview.nvim) Install
-11. Open the vim and use `:checkhealth`, If get an error, deal with it.
+11. [toggleterm](https://github.com/akinsho/toggleterm.nvim) Install
+12. [tokyonight](https://github.com/folke/tokyonight.nvim) Install
+13. [nvim-tree](https://github.com/kyazdani42/nvim-tree.lua) Install
+14. [markdown-preview](https://github.com/iamcco/markdown-preview.nvim) Install
+15. Open the vim and use `:checkhealth`, If get an error, deal with it.
 
 ### This repository is My Development env config

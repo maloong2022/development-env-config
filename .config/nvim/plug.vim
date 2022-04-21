@@ -14,13 +14,9 @@ if has("nvim")
   Plug 'hoob3rt/lualine.nvim'
   Plug 'kristijanhusak/defx-git'
   Plug 'kristijanhusak/defx-icons'
-  Plug '907th/vim-auto-save'
-  Plug 'preservim/tagbar'
   Plug 'Shougo/defx.nvim', { 'do': ':UpdateRemotePlugins' }
-  Plug 'roxma/nvim-yarp'
-	Plug 'roxma/vim-hug-neovim-rpc'
   Plug 'neovim/nvim-lspconfig'
-  Plug 'tami5/lspsaga.nvim', { 'branch': 'nvim6.0' }
+  Plug 'tami5/lspsaga.nvim'
   Plug 'folke/lsp-colors.nvim'
   Plug 'L3MON4D3/LuaSnip'
   Plug 'hrsh7th/cmp-nvim-lsp'
@@ -34,16 +30,9 @@ if has("nvim")
   Plug 'nvim-telescope/telescope.nvim'
   Plug 'windwp/nvim-autopairs'
   Plug 'windwp/nvim-ts-autotag'
-  Plug 'windwp/windline.nvim'
-  Plug 'mhartington/formatter.nvim'
   Plug 'akinsho/toggleterm.nvim'
   Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
-  Plug 'kyazdani42/nvim-web-devicons' " for file icons
   Plug 'kyazdani42/nvim-tree.lua'
-  Plug 'pangloss/vim-javascript'
-  Plug 'leafgarland/typescript-vim'
-  Plug 'peitalin/vim-jsx-typescript'
-  Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
   Plug 'jparise/vim-graphql'
   Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 endif
