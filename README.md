@@ -6,9 +6,15 @@
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 2. [Wezterm](https://github.com/wez/wezterm) Install
+MacOS
 ```bash
 brew tap wez/wezterm-linuxbrew
 brew install wezterm
+```
+ChromeOS
+```bash
+curl -LO https://github.com/wez/wezterm/releases/download/20220408-101518-b908e2dd/wezterm-20220408-101518-b908e2dd.Ubuntu20.04.deb
+sudo apt install -y ./wezterm-20220408-101518-b908e2dd.Ubuntu20.04.deb
 ```
 3. [Git](https://git-scm.com/) Install
 ```bash
