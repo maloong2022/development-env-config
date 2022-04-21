@@ -150,6 +150,7 @@ A file explorer
 17. [tokyonight](https://github.com/folke/tokyonight.nvim) Install
 18. [nvim-tree](https://github.com/kyazdani42/nvim-tree.lua) Install
 19. [markdown-preview](https://github.com/iamcco/markdown-preview.nvim) Install
-20. Open the vim and use `:checkhealth`, If get an error, deal with it.
+20. [vim-startify](https://github.com/mhinz/vim-startify) Install
+21. Open the vim and use `:checkhealth`, If get an error, deal with it.
 
 ### This repository is My Development env config
