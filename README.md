@@ -61,6 +61,10 @@ If not install pip3 you will install.
 ```bash
 sudo apt -y install python3-pip
 ```
+12. [tldr](https://www.npmjs.com/package/tldr) Install
+```bash
+npm install -g tldr
+```
 
 ### Shell setup (Linux & ChromeOS)
 
