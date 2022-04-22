@@ -44,7 +44,7 @@ sudo apt-get install -y nodejs
 ```
 8. [live-server](https://www.npmjs.com/package/live-server) Install
 ```bash
-npm install -g live-server
+sudo npm install -g live-server
 ```
 9. [ripgrep](https://github.com/BurntSushi/ripgrep) Install
 ripgrep is a line-oriented search tool that recursively searches the current directory for a regex pattern. By default, ripgrep will respect gitignore rules and automatically skip hidden files/directories and binary files.
@@ -63,7 +63,7 @@ sudo apt -y install python3-pip
 ```
 12. [tldr](https://www.npmjs.com/package/tldr) Install
 ```bash
-npm install -g tldr
+sudo npm install -g tldr
 ```
 
 ### Shell setup (Linux & ChromeOS)
