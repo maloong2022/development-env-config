@@ -66,6 +66,12 @@ nmap <C-w><down> <C-w>-
 " toggleTerm
 nmap tw :ToggleTerm direction=float<Return>
 
+"-----------------------------
+" togglePrettier
+nmap tp :Prettier<Return>
+
+"-----------------------------
+" toggleNvimTree
 nmap <C-n> :NvimTreeToggle<CR>
 
 "-----------------------------
