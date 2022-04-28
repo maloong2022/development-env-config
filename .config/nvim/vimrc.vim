@@ -23,7 +23,7 @@ set cmdheight=1
 set laststatus=2
 set scrolloff=10
 set expandtab
-set colorcolumn=72
+set colorcolumn=80
 "let loaded_matchparen = 1
 set shell=fish
 set backupskip=/tmp/*,/private/tmp/*
