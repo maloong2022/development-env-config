@@ -11,7 +11,7 @@ if !1 | finish | endif
 set nocompatible
 set relativenumber
 syntax enable
-set fileencodings=utf-8,sjis,euc-jp,latin
+set fileencodings=utf-8
 set encoding=utf-8
 set title
 set autoindent
@@ -23,6 +23,7 @@ set cmdheight=1
 set laststatus=2
 set scrolloff=10
 set expandtab
+set colorcolumn=72
 "let loaded_matchparen = 1
 set shell=fish
 set backupskip=/tmp/*,/private/tmp/*

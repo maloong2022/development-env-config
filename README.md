@@ -155,6 +155,7 @@ A file explorer
 18. [markdown-preview](https://github.com/iamcco/markdown-preview.nvim) Install
 19. [vim-startify](https://github.com/mhinz/vim-startify) Install
 20. [vim-prettier](https://github.com/prettier/vim-prettier) Install
-21. Open the vim and use `:checkhealth`, If get an error, deal with it.
+21. [indentLine](https://github.com/Yggdroot/indentLine) Install
+22. Open the vim and use `:checkhealth`, If get an error, deal with it.
 
 ### This repository is My Development env config
