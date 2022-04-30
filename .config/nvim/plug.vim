@@ -11,7 +11,8 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rhubarb'
 
 if has("nvim")
-  Plug 'hoob3rt/lualine.nvim'
+  Plug 'hoob3rt/lualine.nvim'     
+  Plug 'mhinz/vim-startify'
   Plug 'kristijanhusak/defx-git'
   Plug 'kristijanhusak/defx-icons'
   Plug 'Shougo/defx.nvim', { 'do': ':UpdateRemotePlugins' }
