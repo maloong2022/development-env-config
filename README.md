@@ -116,6 +116,11 @@ Interactive filtering
 ```bash
 sudo apt install peco
 ```
+9. [fzf](https://github.com/PatrickF1/fzf.fish)
+Augment your Fish command line with mnemonic key bindings to efficiently find what you need using fzf.
+```bash
+fisher install PatrickF1/fzf.fish
+```
 
 ### Vim setup
 
